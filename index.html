@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/ba3bef1a23.js" crossorigin="anonymous"></script>
+    <title>Calender</title>
+</head>
+<body>
+    <section class="main_container">
+        <div class="contrast_circle">
+            <div class="theme_btn">
+                <i class="fas fa-adjust"></i>
+            </div>
+        </div>
+
+        <div class="calender_frame">
+            <div class="nav_bar">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="left">
+                <div class="left_back_green"></div>
+                <div class="time_content">
+                    <div class="head_menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="Date"></div>
+                    <div class="Day"></div>
+                    <div class="current_events">
+                        Current Events
+                    </div>
+                    <div class="event_lists">
+                        <div class="event_lists_box">
+                            <ul></ul>
+                        </div>
+                        <div class="see_more">See past events</div>
+                    </div>
+                    <!-- <div class="see_more"></div> -->
+                    <div class="create_event">
+                        Create Event <i class="fas fa-plus-circle"></i>
+                    </div>
+                    <div class="create_event_form">
+                        <div class="event_form">
+                            <div class="cancel">
+                                <i class="far fa-times-circle"></i>
+                            </div>
+                            <div class="create_event_head">Create Post</div>
+                            <form >
+                                <input type="text" name="event" placeholder="Event Name">
+                                <input type="date" name="Date" placeholder="Date">
+                                <input type="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="year"><i data-id="left" class="fas fa-caret-left"></i><span></span><i data-id="right" class="fas fa-caret-right"></i></div>
+                <div class="mnths">
+                </div>
+                <hr style="border:none; background-color: #5e5e5e; height: 2px;">
+                <div class="days">
+                    <span>Sun</span>
+                    <span>Mon</span>
+                    <span>Tue</span>
+                    <span>Wed</span>
+                    <span>Thru</span>
+                    <span>Fri</span>
+                    <span>Sat</span>
+                </div>
+                <div class="dates">
+                    <!-- <div class="week">
+                        <span>25</span>
+                        <span>26</span>
+                        <span>27</span>
+                        <span>28</span>
+                        <span>29</span>
+                        <span>30</span>
+                        <span>1</span>
+                    </div>
+                    <div class="week">
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                    <div class="week">
+                        <span>9</span>
+                        <span>10</span>
+                        <span>11</span>
+                        <span>12</span>
+                        <span>13</span>
+                        <span>14</span>
+                        <span>15</span>
+                    </div>
+                    <div class="week">
+                        <span>16</span>
+                        <span>17</span>
+                        <span>18</span>
+                        <span>19</span>
+                        <span>20</span>
+                        <span>21</span>
+                        <span>22</span>
+                    </div>
+                    <div class="week">
+                        <span>23</span>
+                        <span>24</span>
+                        <span>25</span>
+                        <span>26</span>
+                        <span>27</span>
+                        <span>28</span>
+                        <span>29</span>
+                    </div>
+                    <div class="week">
+                        <span>30</span>
+                        <span>31</span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
