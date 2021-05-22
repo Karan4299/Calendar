@@ -41,7 +41,7 @@
     const left = document.querySelector(".left");
 
     const saveEvent = (event) => {
-        const req= new Request("https://60a83a798532520017ae5b91.mockapi.io/",{
+        const req= new Request("https://60a83a798532520017ae5b91.mockapi.io/events",{
             method: 'POST',
              body: JSON.stringify(event),
              headers: {
@@ -307,7 +307,7 @@
     }
 
     const fetcheventdata = () =>{
-        fetch("https://60a83a798532520017ae5b91.mockapi.io/")
+        fetch("https://60a83a798532520017ae5b91.mockapi.io/events")
         .then(res => res.json())
         .then(res => {
             events = res;
